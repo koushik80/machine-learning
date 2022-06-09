@@ -43,3 +43,17 @@ plt.show()
 #50 values are between 4 and 5
 
 #***Note: The array values are random numbers and will not show the exact same result on your computer.
+
+
+#Big Data Distributions:
+#An array containing 250 values is not considered very big, but now you know how to create a random set of values, and by changing the parameters, you can create the data set as big as you want.
+
+#Example
+#Create an array with 100000 random numbers, and display them using a histogram with 100 bars:
+
+#import numpy
+
+x = numpy.random.uniform(0.0, 5.0, 100000)
+
+plt.hist(x, 100)
+plt.show()
